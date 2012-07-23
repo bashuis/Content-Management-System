@@ -1,3 +1,0 @@
-<?php
-$output->addTitle("Bestanden");
-?>
