@@ -1,0 +1,144 @@
+
+/* -----------------------------------------------------------
+	content -> right -> box / messages
+----------------------------------------------------------- */
+
+div.messages
+{
+	margin: 0 20px 0 20px;
+	padding: 0;
+	clear: both;
+	overflow: hidden;
+}
+
+div.message
+{
+	margin: 0 0 10px 0;
+	padding: 0;
+	clear: both;
+	overflow: hidden;
+        cursor: pointer;
+}
+
+div.message div.image
+{
+	margin: 2px 0 2px 5px;
+	padding: 6px;
+	float: left;
+	background: none !important;
+	border: none !important;
+}
+
+div.message div.image img
+{
+	margin: 0;
+	vertical-align: middle;
+}
+
+div.message div.text
+{
+	margin: 0;
+	padding: 10px 6px 10px 6px;
+	float: left;
+}
+
+div.message div.dismiss
+{
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+div.message div.dismiss a
+{
+	margin: 15px 14px 0 0;
+	padding: 0;
+	height: 16px;
+	width: 16px;
+	display: block;
+	background: url("../../resources/images/icons/cross.png") no-repeat;
+}
+
+div.message div.text h1,
+div.message div.text h2,
+div.message div.text h3,
+div.message div.text h4,
+div.message div.text h5,
+div.message div.text h6
+{
+	font-weight: bold !important;
+	font-style: normal;
+	margin: 0;
+	padding: 0 0 5px 0;
+	border: none;
+	font-size: 12px !important;
+}
+
+div.message div.text span
+{
+	margin: 0;
+	padding: 5px 0 0 0;
+	height: 1%;
+	display: block;
+	line-height: 1.2em;
+}
+
+div.message-error
+{
+	height: 1%;
+	clear: both;
+	overflow: hidden;
+	background: #FBE3E4;
+	border: 1px solid #FBC2C4;
+	color: #860006;
+}
+
+div.message-error h6
+{
+	color: #860006;
+}
+
+div.message-warning
+{
+	height: 1%;
+	clear: both;
+	overflow: hidden;
+	background: #FFF6BF;
+	border: 1px solid #FFD324;
+	color: #5f5200;
+}
+
+div.message-warning h6
+{
+	color: #5f5200;
+}
+
+div.message-notice
+{
+	height: 1%;
+	clear: both;
+	overflow: hidden;
+	background: #8FBDE0;
+	border: 1px solid #6BACDE;
+	color: #003863;
+}
+
+div.message-notice h6
+{
+	color: #003863;
+}
+
+div.message-success
+{
+	height: 1%;
+	clear: both;
+	overflow: hidden;
+	background: #E6EFC2;
+	border: 1px solid #C6D880;
+	color: #4e6100;
+}
+
+div.message-success h6
+{
+	color: #4e6100;
+}

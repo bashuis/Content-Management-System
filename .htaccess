@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule (.*) index.php?url=$1 [QSA] [L]
+</IfModule>
+
+###
+# Code that relies on ?url being set:
+# /cms/bootstrap.php
+# /cms/modules/users/frontend/forms/login.php
+###

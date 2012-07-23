@@ -1,0 +1,5 @@
+<?php
+
+$output->addTitle("Uitloggen");
+
+?>
